@@ -422,6 +422,54 @@ Services
 ===============
 */
 /* small screen layout setup */
+.services{
+  background: var(--clr-grey-10);
+}
+.services .line{
+  margin: 0 auto;
+}
+.services-title{
+  text-align: center;
+}
+.services-center{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(309px, 1fr));
+  justify-content: center;
+}
+
+.service-card{
+  padding: 2rem;
+  border-radius: var(--radius);
+  background: var(--clr-white);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.service-card:hover{
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+}
+.service-card p{
+  transition: var(--transition);
+}
+.service-card:hover p{
+  color: var(--clr-white);
+}
+
+.service-icon{
+  font-size: 2.5rem;
+}
+
+.card-title{
+  margin: 1rem 0;
+}
+.card-line{
+  margin: 0 auto;
+  height: 2px;
+}
+
+} */
 /* bg-grey in globals */
 
 /*
